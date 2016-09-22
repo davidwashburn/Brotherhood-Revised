@@ -1,0 +1,208 @@
+/* Created by David on 9.19.16 */
+
+
+/* Reddit Page Layout and Content Structure */
+.redditHeader {
+    height: calc(60px - 2em);
+    width: calc(100% - 2em);
+    line-height:15px;
+    background-color:#3b4241;
+    max-width: calc(1000px - 2em);
+    margin: 0em auto;
+    padding: 1em;
+}
+.redditControls {
+    color: white;
+    line-height: 30px!important;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.redditControls.selected {
+    color: #a77f1b;
+}
+#redditMain {
+    min-width: calc(50% + 60px);
+    float: left;
+}
+.cardbox {
+    padding:0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.cardbox.news {
+    padding:10px;
+}
+.cardbox.news.nopad {
+    padding:0;
+}
+.listrow {
+    height: 100%;
+    background-color: #ffffff;
+    transition: all .05s ease-in-out;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 10px;
+}
+.listrow:hover {
+    background-color:#f9f9f9;
+}
+.nomargin {
+    margin: 0!important;
+    border-radius: 0!important;
+    transition:all .1s ease-in-out;
+}
+.newsContainer {
+    height: auto;
+    padding: 20px;
+    min-height:0px;
+}
+.newsContainer.read {
+    padding: 16px;
+}
+.redditThumbnail {
+    float:left;
+}
+.redditLabel {
+    line-height: 30px;
+    color: white;
+    margin: 0 1em 0 1em;
+    float: left;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.articleHeader {
+    width: calc(100% - 74px);
+    margin-left: 74px;
+    height: auto;
+}
+.articleHeader.read {
+    margin-left:0;
+    width:100%;
+}
+.actionmenuHeader {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 3px;
+    float: left;
+}
+.redditFlair {
+    transform: translateY(-1em) translateX(10em);
+    position: absolute;
+    color:#25b79f!important;
+    font-size:13px;
+    font-weight:400!important;
+}
+.redditDate{
+    font-size: 12px;
+    line-height: 20px;
+    margin-left:6px;
+    color: #A5A4A4;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+}
+.redditDownvote {
+    float:left;
+}
+.redditUpvote {
+    color:#a5a4a4;
+    font-size: 20px!important;
+    float:left;
+}
+.redditScore {
+    float: right;
+    line-height: 20px;
+    padding-right: 2px;
+    font-size: 12px;
+}
+.redditUpvoteScore {
+    margin: 0;
+    float: left;
+}
+.redditUserName {
+    color:#a77f1b;
+    font-size:14px;
+}
+.redditUserName::after {
+    content: "•";
+    font-size: 1.25em;
+    color: rgb(165, 164, 164);
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin: 0px 0px 0px 6px;
+}
+.userNameContainer {
+    float:left;
+}
+.mediaTitle {
+    max-width: 96%;
+    float: left;
+    color: #656565;
+    margin: 0 0 3px 0;
+    text-overflow: ellipsis;
+    letter-spacing: 1px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.25;
+}
+.redditPost {
+    width:94%;
+    color:#757575;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size:13px!important;
+    line-height: 1.4;
+    margin: 3px 0 0 0;
+    height: auto;
+    transition:all .15s ease-in-out;
+}
+.redditImage.active {
+    height: 65px!important;
+    width: 65px!important;
+    transition: all 1s ease-in-out;
+    transform: translateX(0);
+}
+.redditImage {
+    height: 0;
+    width: 0;
+    transition: all .5s ease-in-out;
+    transform: translateX(-500px);
+}
+.sectionScroll {
+    width:100%;
+    background-color:#404847;
+}
+.pageButton {
+    line-height: 50px;
+    position: relative;
+    padding: 0 .3em;
+    line-height:50px;
+    transition: all 0.4s ease-in-out;
+}
+.pages {
+    width:50%;
+}
+.redditFooter {
+    width: 100%;
+    max-width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: none;
+}
+
+/* Mobile Responsive Media Queries */
+@media (max-width: 769px) {
+    #redditMain {
+        width:100%;
+    }
+}
