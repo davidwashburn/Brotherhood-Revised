@@ -192,16 +192,33 @@ p {
 /*------ Section and HTML Structure ------*/
 .section {
     width: calc(100% - 40px);
-    background-color: #404847;
+    background-color: rgba(59,66,65,.8); /* was #3b4241 */
     cursor:default;
     padding: 20px;
     margin: 0;
 }
 .sectionTitle {
-    color: #fff;
+    margin: 0;
+    padding: 10px 10px 0 10px;
     font-size: 17px;
+    line-height: calc(50px - 30px);
+    text-transform: uppercase;
+    letter-spacing: 4px;
     font-weight: 400;
-    text-transform:uppercase;
+}
+.gameSection {
+    background-color: #404847;
+    min-height: 250px;
+    width: calc(33.33% - 60px);
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    float: left;
+}
+#aboutSection {
+
+}
+#whoSection {
+    margin-top:20px;
 }
 .results {
     padding: 0 20px 20px 20px;
@@ -215,6 +232,9 @@ p {
 }
 
 /*------ Main Menu and Navigation ------*/
+
+/*-- Main menu slides in from left when opened. When "Settings" is clicked the main menu pushes up. --*/
+/*-- Active indicates a left/right motion and Push indicates an upward/downward motion              --*/
 .mainMenu {
     height: 100%;
     width: 16%;
@@ -224,10 +244,31 @@ p {
     background-color: white;
     position: fixed;
     transform: translate3d(-2000px,0,0);
-    transition: all .25s ease-in-out;
+    transition: all .35s ease-in-out;
     z-index: 3;
 }
 .mainMenu.active {
+    transform:translate3d(0,0,0);
+}
+.mainMenu.active.push {
+    transform:translate3d(0,-100%,0);
+}
+.settingsMenu {
+    height: 100%;
+    width: 16%;
+    min-width: 285px;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    transform: translate3d(-2000px,100%,0);
+    transition: all .35s ease-in-out;
+    z-index: 3;
+}
+.settingsMenu.active {
+    transform:translate3d(0,100%,0);
+}
+.settingsMenu.active.push {
     transform:translate3d(0,0,0);
 }
 .menuTitle {
@@ -240,6 +281,7 @@ p {
     letter-spacing: 4px;
     font-weight: 400;
 }
+
 .mainMenuButton {
     padding: 0 10px;
     margin: 0;
@@ -267,5 +309,8 @@ p {
 @media (max-width: 769px) {
     .main {
         padding:0;
+    }
+    .gameSection {
+        width: calc(100% - 60px);
     }
 }

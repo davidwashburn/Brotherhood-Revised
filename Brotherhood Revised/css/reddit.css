@@ -18,7 +18,7 @@
     margin: 0 5px;
 }
 .redditControls.selected {
-    color: #a77f1b;
+    color: #88845e;
 }
 #redditMain {
     min-width: calc(50% + 60px);
@@ -30,7 +30,7 @@
     margin: 0 auto;
 }
 .cardbox.news {
-    padding:10px;
+    padding:10px 0;
 }
 .cardbox.news.nopad {
     padding:0;

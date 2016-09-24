@@ -33,8 +33,25 @@
             <div class="container">
                 <div class="main clearFix">
                     <!-- Primary Content -->
-                    <div class="section clearFix">
-                        <p class="sectionTitle floatLeft">Test Section Title</p>
+                    <div id="aboutSection">
+                        <div class="section clearFix">
+                            <p class="sectionTitle white floatLeft">About Brotherhood Gaming</p>
+                        </div>
+                        <div class="section clearFix">
+                            <div class="gameSection">DayZ</div>
+                            <div class="gameSection">Arma</div>
+                            <div class="gameSection">Squad</div>
+                        </div>
+                    </div>
+                    <div id="whoSection">
+                        <div class="section clearFix">
+                            <p class="sectionTitle white floatLeft">Who We Are</p>
+                        </div>
+                        <div class="section clearFix">
+                            <div class="gameSection">DayZ</div>
+                            <div class="gameSection">Arma</div>
+                            <div class="gameSection">Squad</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -53,8 +70,12 @@
                         <p>Home</p>
                     </a>
                 </div>
-                <div class="mainMenuButton">
-                    <p>Settings</p>
+                <div id="aboutMenuButton" class="mainMenuButton">
+                    <p>
+                        <a href="reddit.html">
+                            Reddit
+                        </a>
+                    </p>
                 </div>
                 <div id="statsMenuButton" class="mainMenuButton">
                     <p>
@@ -63,12 +84,8 @@
                         </a>
                     </p>
                 </div>
-                <div id="aboutMenuButton" class="mainMenuButton">
-                    <p>
-                        <a href="reddit.html">
-                            Reddit
-                        </a>
-                    </p>
+                <div id="settingsMenuButton" class="mainMenuButton">
+                    <p>Settings</p>
                 </div>
                 <p id="menuFooter" class="menuFooter">
                     Brotherhood Gaming (© <a href="#" target="_blank">2016</a>) is operated by <a href="#" target="_blank">fools</a>.
@@ -78,6 +95,14 @@
             </div>
             <!-- End Main Menu -->
 
+            <!-- Settings Menu -->
+            <div class="settingsMenu shadow" id="settingsMenu">
+                <h3 class="menuTitle">
+                    Settings
+                    <i id="settingsCloseButton" type="button" class="material-icons optbtn floatRight">keyboard_arrow_up</i>
+                </h3>
+            </div>
+            <!-- End Settings Menu -->
 
         </div>
     </body>
