@@ -200,6 +200,13 @@
     box-shadow: none;
 }
 
+/* Side content next to reddit page */
+#sideContent {
+    width: calc(50% - 80px);
+    padding: 0 0 0 20px;
+    float: left;
+}
+
 /* Mobile Responsive Media Queries */
 @media (max-width: 769px) {
     #redditMain {
