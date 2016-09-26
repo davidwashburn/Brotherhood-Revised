@@ -1,0 +1,32 @@
+/* Statistics page structure */
+.statsHeader {
+    height: calc(60px - 2em);
+    width: calc(100% - 2em);
+    line-height:15px;
+    background-color:#3b4241;
+    max-width: calc(1000px - 2em);
+    margin: 0em auto;
+    padding: 1em;
+}
+.statsHeaderCollapse {
+    color: white;
+    line-height: calc(50px - 15px)!important;
+    padding: 0 10px;
+    float: right;
+    cursor: pointer;
+}
+.statsHeaderLabel {
+    color: white;
+    line-height: calc(50px - 15px);
+    padding: 0 10px;
+}
+
+/* Mobile Responsive Media Queries */
+@media (max-width: 769px) {
+    .statsHeader {
+        height: calc(50px - 1em);
+        width: calc(100% - 1em);
+        max-width: calc(1000px - 1em);
+        padding: .5em;
+    }
+}

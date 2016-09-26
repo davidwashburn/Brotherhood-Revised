@@ -212,4 +212,14 @@
     #redditMain {
         width:100%;
     }
+    .redditHeader {
+        height: calc(50px - 1em);
+        width: calc(100% - 1em);
+        max-width: calc(1000px - 1em);
+        padding: .5em;
+    }
+    #sideContent {
+        width: auto;
+        padding: 0;
+    }
 }
