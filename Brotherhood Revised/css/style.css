@@ -13,8 +13,9 @@ body {
 }
 .indexHero {
     background: url(../css/images/overlay2.png) repeat left top, url(../css/images/brotherhoodSmall.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     min-height: 100vh;
 }
 .indexHero:after {
@@ -172,7 +173,7 @@ p {
     cursor:pointer;
 }
 .main {
-    padding: 20px;
+    padding: 40px 80px;
 }
 .overlay {
     height: 100vh;
@@ -209,19 +210,19 @@ p {
     text-align:center;
 }
 .aboutText {
-    width: calc(100% - 600px);
-    font-size: 22px;
+    width: calc(100% - 500px);
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 45px;
     color: #d2d2d2;
     margin: 0 20px;
 }
 #aboutSection {
-    margin-top:100px;
+    margin-top:80px;
 }
 .aboutSectionHero {
-    height: 275px;
-    width: 500px;
+    height: 215px;
+    width: 400px;
     margin: 0 20px 20px 20px;
     padding: 10px;
     background-image: url(https://pbs.twimg.com/media/COd0JPhWsAUH3px.jpg);
@@ -337,7 +338,7 @@ p {
 .mainMenuButton {
     padding: 0 10px;
     margin: .75em 0;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
     overflow: hidden;
 }
