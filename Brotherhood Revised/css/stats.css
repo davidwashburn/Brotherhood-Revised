@@ -70,23 +70,21 @@
         max-width: calc(1000px - 1em);
         padding: .5em;
     }
+
     .statsSection {
         margin: 0 auto;
         padding: 0em 1em 0em 1em;
+        box-shadow:none;
     }
+
     .statCenter {
         width: 100%;
     }
-    .informationRow {
-         float: left;
-         width: 100%;
-         margin: 0;
-         min-width: 0;
-     }
-}
 
-@media (max-width: 769px) {
-    .statCenter {
-        width: calc(100% - 6em);
+    .informationRow {
+        float: left;
+        width: 100%;
+        margin: 0;
+        min-width: 0;
     }
 }

@@ -117,7 +117,7 @@
                 </div>
                 <p id="menuFooter" class="menuFooter">
                     Brotherhood Gaming (© <a href="#" target="_blank">2016</a>) is operated by <a href="#" target="_blank">fools</a>.
-                    Design by <a href="#" target="_blank">DWashburn</a>. Powered by
+                    Design by <a href="#" target="_blank">Tourist and Goose</a>. Powered by
                     <a href="#" target="_blank">Hampsters.</a>
                 </p>
             </div>

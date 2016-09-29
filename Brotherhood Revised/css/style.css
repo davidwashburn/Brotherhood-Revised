@@ -13,14 +13,13 @@ body {
 }
 .indexHero {
     background: url(../css/images/overlay2.png) repeat left top, url(../css/images/brotherhoodSmall.jpg);
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    min-height: 100vh;
+    min-height: 100%;
 }
+
 .indexHero:after {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     z-index: -1;
     top: 0px;
     position: fixed;
