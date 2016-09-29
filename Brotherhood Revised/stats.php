@@ -36,7 +36,7 @@
                 <div class="main clearFix">
                     <!-- Primary Content -->
 
-                    <div class="statCenter clearfix">
+                    <div class="statCenter clearFix">
                         <div class="informationRow">
                             <div class="statsHeader">
                                 <p class="statsHeaderLabel floatLeft">
@@ -129,6 +129,11 @@
                     Settings
                     <i id="settingsCloseButton" type="button" class="material-icons optbtn floatRight">keyboard_arrow_up</i>
                 </h3>
+                <div class="mainMenuButton">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        <p>Coming Soon!</p>
+                    </a>
+                </div>
             </div>
             <!-- End Settings Menu -->
 

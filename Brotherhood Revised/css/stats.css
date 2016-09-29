@@ -10,7 +10,7 @@
 }
 .statsHeaderCollapse {
     color: white;
-    line-height: calc(50px - 15px)!important;
+    line-height: calc(50px - 15px);
     padding: 0 10px;
     float: right;
     cursor: pointer;
@@ -21,6 +21,47 @@
     padding: 0 10px;
 }
 
+/* Rows across the stats page that are responsive */
+.informationRow {
+    float: left;
+    width: calc(33.33% - 2em);
+    margin: 1em;
+    min-width: 325px;
+}
+
+/* Centers all three stats rows responsively */
+.statCenter {
+    width: calc(80% - 6em);
+    margin: 0 auto;
+}
+
+/* Row Cell Structure */
+.statsSection {
+    max-width: calc(650px - 2em);
+    margin: 0 auto 1em auto;
+    padding: 1em;
+    line-height: 2;
+    color: #757575;
+    background: white;
+}
+.statsCell {
+    width: 100%;
+    line-height: 40px;
+}
+.stats {
+    width: 50%;
+}
+.stats.left {
+    float: left;
+    text-align: left;
+    text-transform: capitalize;
+}
+.stats.right {
+    float: right;
+    text-align: right;
+}
+
+
 /* Mobile Responsive Media Queries */
 @media (max-width: 769px) {
     .statsHeader {
@@ -28,5 +69,24 @@
         width: calc(100% - 1em);
         max-width: calc(1000px - 1em);
         padding: .5em;
+    }
+    .statsSection {
+        margin: 0 auto;
+        padding: 0em 1em 0em 1em;
+    }
+    .statCenter {
+        width: 100%;
+    }
+    .informationRow {
+         float: left;
+         width: 100%;
+         margin: 0;
+         min-width: 0;
+     }
+}
+
+@media (max-width: 769px) {
+    .statCenter {
+        width: calc(100% - 6em);
     }
 }

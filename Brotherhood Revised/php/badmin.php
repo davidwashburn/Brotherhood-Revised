@@ -58,8 +58,8 @@ function infotable($args)
 {
     $count = $args["bytes"];
     echo <<<EOT
-	<div class="statsSection shadow clearfix">		
-        <div class="statsCell clearfix">
+	<div class="statsSection shadow clearFix">		
+        <div class="statsCell clearFix">
             <p class="stats left">
                 game
             </p>
@@ -67,7 +67,7 @@ function infotable($args)
                 $args[game]
             </p>
         </div>
-        <div class="statsCell clearfix">
+        <div class="statsCell clearFix">
             <p class="stats left short">
                 name
             </p>
@@ -78,7 +78,7 @@ function infotable($args)
                 </a>
             </p>
         </div>
-        <div class="statsCell clearfix">
+        <div class="statsCell clearFix">
             <p class="stats left">
                 max players
             </p>
@@ -86,7 +86,7 @@ function infotable($args)
                 $args[playersmax]
             </p>
         </div>
-        <div class="statsCell clearfix">
+        <div class="statsCell clearFix">
             <p class="stats left">
                 players
             </p>
@@ -94,7 +94,7 @@ function infotable($args)
                 $args[players]
             </p>
         </div>
-        <div class="statsCell clearfix">
+        <div class="statsCell clearFix">
             <p class="stats left">
                 server time
             </p>
@@ -102,7 +102,7 @@ function infotable($args)
                 $args[time]
             </p>
         </div>
-        <div class="statsCell clearfix">
+        <div class="statsCell clearFix">
             <p class="stats left">
                 password
             </p>
@@ -110,7 +110,7 @@ function infotable($args)
                 $args[password]
             </p>
         </div>
-        <div class="statsCell clearfix hide">
+        <div class="statsCell clearFix hide">
             <p class="stats left">
                 folder
             </p>
@@ -118,7 +118,7 @@ function infotable($args)
                 $args[folder]
             </p>
         </div>
-        <div class="statsCell clearfix hide">
+        <div class="statsCell clearFix hide">
             <p class="stats left">
                 id
             </p>
@@ -128,8 +128,8 @@ function infotable($args)
         </div>
 	</div>
 
-	<div class="statsSection shadow clearfix">
-        <div class="statsCell clearfix">
+	<div class="statsSection shadow clearFix">
+        <div class="statsCell clearFix">
             <p class="stats left">
                 bots
             </p>
@@ -137,7 +137,7 @@ function infotable($args)
                 $args[bots]
             </p>
         </div>
-        <div class="statsCell clearfix hide">
+        <div class="statsCell clearFix hide">
             <p class="stats left">
                 map
             </p>
@@ -145,7 +145,7 @@ function infotable($args)
                 $args[map]
             </p>
         </div>
-        <div class="statsCell clearfix">
+        <div class="statsCell clearFix">
             <p class="stats left">
                 server type
             </p>
@@ -153,7 +153,7 @@ function infotable($args)
                 $args[server_type]
             </p>
         </div>
-        <div class="statsCell clearfix">
+        <div class="statsCell clearFix">
             <p class="stats left">
                 environment
             </p>
@@ -161,7 +161,7 @@ function infotable($args)
                 $args[environment]
             </p>
         </div>
-        <div class="statsCell clearfix">
+        <div class="statsCell clearFix">
             <p class="stats left">
                 vac
             </p>
@@ -169,7 +169,7 @@ function infotable($args)
                 $args[vac]
             </p>
         </div>
-        <div class="statsCell clearfix">
+        <div class="statsCell clearFix">
             <p class="stats left">
                 version
             </p>
@@ -186,12 +186,12 @@ function playertable($args)
 {
     $count = $args["packet"]["bytes"];
     echo <<<EOT
-	<div class="statsSection shadow clearfix">
+	<div class="statsSection shadow clearFix">
 
 EOT;
     for($j = 0; $j < hexdec($args["packet"]["players"]); $j++)
     {
-        echo "<div class='statsCell clearfix'>" . "<p class='stats left'>" . $args["$j"]["name"] ."&nbsp;&nbsp;" . "</p>" . "<p class='hide'>" . "0" . "</p>" . "<p class='stats right'>" . $args["$j"]["time"] . "</p>" . "</div>";
+        echo "<div class='statsCell clearFix'>" . "<p class='stats left'>" . $args["$j"]["name"] ."&nbsp;&nbsp;" . "</p>" . "<p class='hide'>" . "0" . "</p>" . "<p class='stats right'>" . $args["$j"]["time"] . "</p>" . "</div>";
     }
     echo <<<EOT
     </div>
@@ -203,11 +203,11 @@ function ruletable($args)
 {
     $bytes = $args["packet"]["bytes"];
     echo <<<EOT
-	<div class="statsSection shadow clearfix">
+	<div class="statsSection shadow clearFix">
 EOT;
     for($i = 0; $i < hexdec($args["packet"]["rules"]); $i++)
     {
-        echo "<div class='statsCell clearfix'>" . "<p class='stats left'>" . $args["$i"]["name"] . "</p>" . "<p class='stats right'>" . $args["$i"]["rule"] . "</p>" . "</div>";
+        echo "<div class='statsCell clearFix'>" . "<p class='stats left'>" . $args["$i"]["name"] . "</p>" . "<p class='stats right'>" . $args["$i"]["rule"] . "</p>" . "</div>";
     }
     echo <<<EOT
     </div>
