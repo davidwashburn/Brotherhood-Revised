@@ -107,7 +107,7 @@
                 </div>
                 <div id="statsMenuButton" class="mainMenuButton">
                     <p>
-                        <a href="stats.html">
+                        <a href="stats.php">
                             Statistics
                         </a>
                     </p>
