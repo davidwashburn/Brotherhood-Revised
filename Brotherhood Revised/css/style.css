@@ -14,7 +14,7 @@ body {
 .indexHero {
     background: url(../css/images/overlay2.png) repeat left top, url(../css/images/brotherhoodSmall.jpg);
     background-attachment: fixed;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 .indexHero:after {
@@ -217,7 +217,7 @@ p {
     margin: 0 20px;
 }
 #aboutSection {
-    margin-top:80px;
+    margin-top:60px;
 }
 .aboutSectionHero {
     height: 215px;
@@ -255,7 +255,7 @@ p {
     position: absolute;
 }
 .whoSection-More-Button {
-    color: white;
+    color: #404847;
     font-size: 22px;
     padding: 10px 25px;
     line-height: 35px!important;
@@ -264,13 +264,14 @@ p {
 #whoSection-More {
     cursor: pointer;
     float: right;
-    background-color: #404847;
+    background-color: white;
+    border-radius: 2px;
 }
 #whoSection-Expand-Button {
-    line-height: 35px;
+    color: #404847;
     padding: 10px 25px 10px 0;
+    line-height: 35px;
     float: right;
-    color: white;
 }
 .results {
     padding: 0 20px 20px 20px;

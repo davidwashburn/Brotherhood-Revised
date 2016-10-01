@@ -59,6 +59,9 @@
 .stats.right {
     float: right;
     text-align: right;
+    max-height: 40px;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 
