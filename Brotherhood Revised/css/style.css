@@ -372,6 +372,9 @@ p {
     .main {
         padding:0;
     }
+    .indexHero {
+        background: url(../css/images/assets/overlay2.png) repeat left top, #2b2d2d;
+    }
     .section {
         width: auto;
         padding:10px 20px;
