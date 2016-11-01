@@ -10,7 +10,7 @@
 }
 .statsHeaderCollapse {
     color: white;
-    line-height: calc(50px - 15px);
+    line-height: calc(50px - 15px)!important;
     padding: 0 10px;
     float: right;
     cursor: pointer;

@@ -40,6 +40,21 @@
                         <div class="informationRow">
                             <div class="statsHeader">
                                 <p class="statsHeaderLabel floatLeft">
+                                    Players
+                                </p>
+                                <i class="material-icons statsHeaderCollapse" id="collapseCarat3">
+                                    arrow_drop_down
+                                </i>
+                            </div>
+                            <div id="statRow3">
+                                <a name="players">
+                                    <?php playertable($players); ?>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="informationRow">
+                            <div class="statsHeader">
+                                <p class="statsHeaderLabel floatLeft">
                                     General
                                 </p>
                                 <i class="material-icons statsHeaderCollapse" id="collapseCarat1">
@@ -61,21 +76,6 @@
                             </div>
                             <div  id="statRow2">
                                 <?php ruletable($rules); ?>
-                            </div>
-                        </div>
-                        <div class="informationRow">
-                            <div class="statsHeader">
-                                <p class="statsHeaderLabel floatLeft">
-                                    Players
-                                </p>
-                                <i class="material-icons statsHeaderCollapse" id="collapseCarat3">
-                                    arrow_drop_down
-                                </i>
-                            </div>
-                            <div id="statRow3">
-                                <a name="players">
-                                    <?php playertable($players); ?>
-                                </a>
                             </div>
                         </div>
                     </div>
