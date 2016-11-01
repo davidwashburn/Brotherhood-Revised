@@ -37,5 +37,9 @@ $( document ).ready(function() {
         $('#battle').slideToggle("fast");
     });
 
+    // Poptrox media gallery call on the Index page
+    var foo = $('#gallery');
+    foo.poptrox();
+
 });
 
