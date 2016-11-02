@@ -31,8 +31,9 @@ body {
 input {
     color: #757575;
     border: 1px solid #dedede;
+    border-radius:1px;
     height: 35px;
-    width: calc(100% - 20px);
+    width: calc(100% - 22px);
     padding: 0 10px;
 }
 a {
@@ -104,6 +105,12 @@ a:hover {
 }
 .floatRight {
     float:right;
+}
+.alignLeft {
+    text-align:left;
+}
+.alignRight {
+    text-align:right;
 }
 .hideOverFlow {
     overflow:hidden;
@@ -211,10 +218,11 @@ p {
 .aboutText {
     width: calc(100% - 500px);
     font-size: 20px;
+    font-weight: 300;
     letter-spacing: 1px;
-    line-height: 45px;
+    line-height: 40px;
     color: #d2d2d2;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 #aboutSection {
     margin-top:60px;
@@ -358,6 +366,31 @@ p {
     padding-left:25px;
     color: white;
 }
+.splitMenuButton {
+    padding: 15px 10px;
+    width: calc(50% - 28px);
+    float: left;
+    margin: .75em 0;
+    background-color: #fbfbfb;
+    font-size: 18px;
+    text-align:center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.splitMenuButton:hover {
+    color: #495453;
+}
+.splitMenuButton.active {
+    background-color: #404847;
+    padding-left:25px;
+    color: white;
+}
+#aboutMenuButton {
+    margin:.75em 5px .75em 0;
+}
+#loginMenuButton {
+    margin:.75em 0 .75em 5px;
+}
 .menuFooter {
     margin: 0;
     padding: 25px 10px;
@@ -392,6 +425,15 @@ p {
     .aboutText {
         width:auto;
     }
+<<<<<<< HEAD
+=======
+    #aboutPara1 {
+        padding-bottom: 50px;
+    }
+    #aboutPara2 {
+        display:none;
+    }
+>>>>>>> origin/master
     .mediaGallery {
         width: calc(100% - 20px);
     }

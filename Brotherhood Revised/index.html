@@ -1,4 +1,3 @@
-<!-- Created by David on 9.19.16 -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 
@@ -27,7 +26,7 @@
             <div class="navHeader clearFix">
                 <i class="navIcon material-icons floatLeft" id="navMenu">menu</i>
                 <h1 class="navTitle">Brotherhood</h1>
-                <i class="navIcon material-icons floatRight" id="navSearch">search</i>
+                <i class="navIcon material-icons floatRight" id="navSearch">keyboard_arrow_down</i>
             </div>
 
             <!-- Content -->
@@ -36,12 +35,14 @@
                     <!-- Primary Content -->
                     <div id="aboutSection">
                         <div class="section clearFix">
-                            <p class="sectionTitle white">About Brotherhood Gaming</p>
+                            <p class="sectionTitle white" style="padding: 10px 0 0 0;">About Us</p>
                         </div>
                         <div class="section clearFix">
                             <div class="aboutSectionHero floatLeft"></div>
-                            <p class="aboutText floatLeft">
-                                Brotherhood Gaming was originally founded as a group of friends collaborating to play games together. Eventually we started playing DayZ on the DayZ Underground server. This led to the formation of Brotherhood Gaming along with a logo we designed for ourselves, a gimmicky website we built from the ground up and lots of PR effort from a few willing souls.
+                            <p class="aboutText floatLeft" id="aboutPara1">
+                                Brotherhood Gaming was originally founded as a group of friends collaborating to play games together. Eventually we started playing DayZ on the DayZ Underground server.
+                            </p>
+                            <p class="aboutText floatLeft" id="aboutPara2">This led to the formation of Brotherhood Gaming along with a logo we designed for ourselves, a gimmicky website we built from the ground up and lots of PR effort from a few willing souls.
                             </p>
                         </div>
                     </div>
@@ -112,8 +113,13 @@
                     <i id="menuCloseButton" type="button" class="material-icons optbtn floatRight">clear</i>
                 </h3>
                 <a href="index.html">
-                    <div id="aboutMenuButton" class="mainMenuButton">
+                    <div id="aboutMenuButton" class="splitMenuButton">
                         <p>Home</p>
+                    </div>
+                </a>
+                <a href="login.html">
+                    <div id="loginMenuButton" class="splitMenuButton">
+                        <p>Log In</p>
                     </div>
                 </a>
                 <a href="reddit.html">
