@@ -10,7 +10,11 @@
     text-align: center;
     font-size: 18px;
 }
-.container {
+.outerContainer {
+    margin: 4em auto 0 auto;
+    max-width: 600px;
+}
+.innerContainer {
     padding:1em 2em;
 }
 .inputHeader {
@@ -29,15 +33,24 @@
     background-color: #212121;
     font-weight: 600;
 }
+.loginButton:hover {
+    background-color:#757575;
+    transition:.2s ease-in-out;
+}
 #forgotPassword {
     padding: 10px 0 5px 0;
     color: #b7b7b7;
     font-size: 15px;
 }
 .loginFooter {
-    margin: 2em 1em;
+    margin: 0;
     text-align: center;
     font-size: 15px;
+    padding: 5px 0;
+    height: 40px;
+    line-height: 40px;
+    color: #b7b7b7;
+    background-color: #404847;
 }
 .footerLink {
     width:20%;
@@ -47,5 +60,12 @@
 @media (max-width: 769px) {
     #redditMain {
         width:100%;
+    }
+    .outerContainer {
+        margin:0 auto;
+    }
+    .loginFooter {
+        margin: 2em 1em 0 1em;
+        background-color:transparent;
     }
 }
