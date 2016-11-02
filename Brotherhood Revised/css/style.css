@@ -31,8 +31,9 @@ body {
 input {
     color: #757575;
     border: 1px solid #dedede;
+    border-radius:1px;
     height: 35px;
-    width: calc(100% - 20px);
+    width: calc(100% - 22px);
     padding: 0 10px;
 }
 a {
@@ -104,6 +105,12 @@ a:hover {
 }
 .floatRight {
     float:right;
+}
+.alignLeft {
+    text-align:left;
+}
+.alignRight {
+    text-align:right;
 }
 .hideOverFlow {
     overflow:hidden;
@@ -358,6 +365,31 @@ p {
     background-color: #404847;
     padding-left:25px;
     color: white;
+}
+.splitMenuButton {
+    padding: 15px 10px;
+    width: calc(50% - 28px);
+    float: left;
+    margin: .75em 0;
+    background-color: #fbfbfb;
+    font-size: 18px;
+    text-align:center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.splitMenuButton:hover {
+    color: #495453;
+}
+.splitMenuButton.active {
+    background-color: #404847;
+    padding-left:25px;
+    color: white;
+}
+#aboutMenuButton {
+    margin:.75em 5px .75em 0;
+}
+#loginMenuButton {
+    margin:.75em 0 .75em 5px;
 }
 .menuFooter {
     margin: 0;

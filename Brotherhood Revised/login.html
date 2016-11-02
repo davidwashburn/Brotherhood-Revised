@@ -1,8 +1,5 @@
-<?php 	require_once "php/badmin.php"; ?>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-
 <head>
     <title>Brotherhood Gaming</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -13,14 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-    <link rel="stylesheet" type="text/css" href="css/stats.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/login.css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
 </head>
-
     <body id="body">
         <div class="indexHero">
             <!-- Main Navigation Menu -->
@@ -31,57 +27,35 @@
                 <i class="navIcon material-icons floatRight" id="navSearch">keyboard_arrow_down</i>
             </div>
 
-            <!-- Content -->
-            <div class="container">
-                <div class="main clearFix">
-                    <!-- Primary Content -->
+            <div class="loginHeader hide">
+                <p>Log In</p>
+            </div>
 
-                    <div class="statCenter clearFix">
-                        <div class="informationRow">
-                            <div class="statsHeader">
-                                <p class="statsHeaderLabel floatLeft">
-                                    Players
-                                </p>
-                                <i class="material-icons statsHeaderCollapse" id="collapseCarat3">
-                                    arrow_drop_down
-                                </i>
-                            </div>
-                            <div id="statRow3">
-                                <a name="players">
-                                    <?php playertable($players); ?>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="informationRow">
-                            <div class="statsHeader">
-                                <p class="statsHeaderLabel floatLeft">
-                                    General
-                                </p>
-                                <i class="material-icons statsHeaderCollapse" id="collapseCarat1">
-                                    arrow_drop_down
-                                </i>
-                            </div>
-                            <div  id="statRow1">
-                                <?php infotable($info); ?>
-                            </div>
-                        </div>
-                        <div class="informationRow">
-                            <div class="statsHeader">
-                                <p class="statsHeaderLabel floatLeft">
-                                    Details
-                                </p>
-                                <i class="material-icons statsHeaderCollapse" id="collapseCarat2">
-                                    arrow_drop_down
-                                </i>
-                            </div>
-                            <div  id="statRow2">
-                                <?php ruletable($rules); ?>
-                            </div>
-                        </div>
-                    </div>
-
-
+            <!-- Main section -->
+            <div class="loginMain">
+                <div class="container">
+                    <p class="inputHeader">Email</p>
+                    <input>
+                    <p class="inputHeader">Password</p>
+                    <input>
+                    <button class="loginButton">Log In</button>
+                    <p id="forgotPassword">Forgot your password?</p>
                 </div>
+            </div>
+
+            <!-- Footer section -->
+            <div class="loginFooter clearFix">
+                <p class="footerLink">
+                    <a href="index.html">Home</a>
+                </p>
+                <p class="footerLink">|</p>
+                <p class="footerLink">
+                    <a href="reddit.html">Reddit</a>
+                </p>
+                <p class="footerLink">|</p>
+                <p class="footerLink">
+                    <a href="stats.php">Stats</a>
+                </p>
             </div>
 
             <div class="overlay" id="overlay"></div>
@@ -93,30 +67,26 @@
                     Menu
                     <i id="menuCloseButton" type="button" class="material-icons optbtn floatRight">clear</i>
                 </h3>
-                <div id="aboutMenuButton" class="splitMenuButton">
-                    <a href="index.html">
+                <a href="index.html">
+                    <div id="aboutMenuButton" class="splitMenuButton">
                         <p>Home</p>
-                    </a>
-                </div>
+                    </div>
+                </a>
                 <a href="login.html">
                     <div id="loginMenuButton" class="splitMenuButton">
                         <p>Log In</p>
                     </div>
                 </a>
-                <div id="aboutMenuButton" class="mainMenuButton">
-                    <p>
-                        <a href="reddit.html">
-                            Reddit
-                        </a>
-                    </p>
-                </div>
-                <div id="statsMenuButton" class="mainMenuButton">
-                    <p>
-                        <a href="stats.php">
-                            Statistics
-                        </a>
-                    </p>
-                </div>
+                <a href="reddit.html">
+                    <div id="aboutMenuButton" class="mainMenuButton">
+                        <p>Reddit</p>
+                    </div>
+                </a>
+                <a href="stats.php">
+                    <div id="statsMenuButton" class="mainMenuButton">
+                        <p>Statistics</p>
+                    </div>
+                </a>
                 <div id="settingsMenuButton" class="mainMenuButton">
                     <p>Settings</p>
                 </div>
@@ -141,7 +111,6 @@
                 </div>
             </div>
             <!-- End Settings Menu -->
-
         </div>
     </body>
 </html>
