@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.poptrox.min.js"></script>
     <script src="js/scripts.js"></script>
 </head>
 
@@ -26,7 +27,7 @@
             <div class="navHeader clearFix">
                 <i class="navIcon material-icons floatLeft" id="navMenu">menu</i>
                 <h1 class="navTitle">Brotherhood</h1>
-                <i class="navIcon material-icons floatRight" id="navSearch">search</i>
+                <i class="navIcon material-icons floatRight" id="navSearch">keyboard_arrow_down</i>
             </div>
 
             <!-- Content -->
@@ -35,12 +36,14 @@
                     <!-- Primary Content -->
                     <div id="aboutSection">
                         <div class="section clearFix">
-                            <p class="sectionTitle white">About Brotherhood Gaming</p>
+                            <p class="sectionTitle white" style="padding: 10px 0 0 0;">About Us</p>
                         </div>
                         <div class="section clearFix">
                             <div class="aboutSectionHero floatLeft"></div>
-                            <p class="aboutText floatLeft">
-                                Brotherhood Gaming was originally founded as a group of friends collaborating to play games together. Eventually we started playing DayZ on the DayZ Underground server. This led to the formation of Brotherhood Gaming along with a logo we designed for ourselves, a gimmicky website we built from the ground up and lots of PR effort from a few willing souls.
+                            <p class="aboutText floatLeft" id="aboutPara1">
+                                Brotherhood Gaming was originally founded as a group of friends collaborating to play games together. Eventually we started playing DayZ on the DayZ Underground server.
+                            </p>
+                            <p class="aboutText floatLeft" id="aboutPara2">This led to the formation of Brotherhood Gaming along with a logo we designed for ourselves, a gimmicky website we built from the ground up and lots of PR effort from a few willing souls.
                             </p>
                         </div>
                     </div>
@@ -77,15 +80,25 @@
                             </div>
                         </div>
                     </div>
-                    <div id="whoSection">
+                    <div id="mediaSection">
                         <div class="section clearFix">
-                            <p class="sectionTitle white">Join the Initiative</p>
+                            <p class="sectionTitle white">Our Records</p>
                         </div>
                         <div class="section clearFix">
-                            <div class="aboutSectionHero floatLeft"></div>
-                            <p class="aboutText floatLeft">
-                                Brotherhood Gaming was originally founded as a group of friends collaborating to play games together. Eventually we started playing DayZ on the DayZ Underground server. This led to the formation of Brotherhood Gaming along with a logo we designed for ourselves, a gimmicky website we built from the ground up and lots of PR effort from a few willing souls.
-                            </p>
+                            <div id="gallery" class="clearFix">
+                                <a href="https://www.youtube.com/embed/l2G8GvYber4?list=PLyv8P_FoP2Gwi7LhfFtBRBIAFggJ6kgHr&amp;showinfo=0 data-poptrox="youtube,800x400">
+                                    <img class="mediaGallery" src="./css/images/assets/dug.png" />
+                                </a>
+                                <a href="https://www.youtube.com/embed/l2G8GvYber4?list=PLyv8P_FoP2Gwi7LhfFtBRBIAFggJ6kgHr&amp;showinfo=0">
+                                    <img class="mediaGallery" src="./css/images/assets/dug.png" />
+                                </a>
+                                <a href="https://www.youtube.com/embed/l2G8GvYber4?list=PLyv8P_FoP2Gwi7LhfFtBRBIAFggJ6kgHr&amp;showinfo=0">
+                                    <img class="mediaGallery" src="./css/images/assets/dug.png" />
+                                </a>
+                                <a href="http://youtu.be/loGm3vT8EAQ" data-poptrox="youtube,800x480">
+                                    <img class="mediaGallery" src="./css/images/assets/dug.png" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -139,7 +152,6 @@
                 </div>
             </div>
             <!-- End Settings Menu -->
-
         </div>
     </body>
 </html>

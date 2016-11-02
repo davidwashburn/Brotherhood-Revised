@@ -52,11 +52,11 @@
 }
 .newsContainer {
     height: auto;
-    padding: 20px;
+    padding: 10px 18px;
     min-height:0px;
 }
 .newsContainer.read {
-    padding: 16px;
+    padding: 10px 16px;
 }
 .redditThumbnail {
     float:left;

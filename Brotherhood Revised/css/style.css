@@ -12,7 +12,7 @@ body {
     margin:0;
 }
 .indexHero {
-    background: url(../css/images/overlay2.png) repeat left top, url(../css/images/brotherhoodSmall.jpg);
+    background: url(../css/images/assets/overlay2.png) repeat left top, url(../css/images/brotherhoodSmall.jpg);
     background-attachment: fixed;
     min-height: 100vh;
 }
@@ -23,7 +23,7 @@ body {
     z-index: -1;
     top: 0px;
     position: fixed;
-    background: transparent url(../css/images/overlay2.png) repeat left top;
+    background: transparent url(../css/images/assets/overlay2.png) repeat left top;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -211,10 +211,11 @@ p {
 .aboutText {
     width: calc(100% - 500px);
     font-size: 20px;
+    font-weight: 300;
     letter-spacing: 1px;
-    line-height: 45px;
+    line-height: 40px;
     color: #d2d2d2;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 #aboutSection {
     margin-top:60px;
@@ -227,8 +228,12 @@ p {
     background-image: url(https://pbs.twimg.com/media/COd0JPhWsAUH3px.jpg);
     background-size: cover;
 }
-#gamesSection {
-    margin-top:100px;
+.mediaGallery {
+    width: calc(25% - 20px);
+    min-width: 200px;
+    height: auto;
+    float: left;
+    padding: 0 10px 20px 10px;
 }
 #whoSection {
     margin-top:100px;
@@ -272,6 +277,9 @@ p {
     padding: 10px 25px 10px 0;
     line-height: 35px;
     float: right;
+}
+#mediaSection {
+    margin-top:100px;
 }
 .results {
     padding: 0 20px 20px 20px;
@@ -365,6 +373,9 @@ p {
     .main {
         padding:0;
     }
+    .indexHero {
+        background: url(../css/images/assets/overlay2.png) repeat left top, #2b2d2d;
+    }
     .section {
         width: auto;
         padding:10px 20px;
@@ -381,5 +392,14 @@ p {
     }
     .aboutText {
         width:auto;
+    }
+    #aboutPara1 {
+        padding-bottom: 50px;
+    }
+    #aboutPara2 {
+        display:none;
+    }
+    .mediaGallery {
+        width: calc(100% - 20px);
     }
 }
