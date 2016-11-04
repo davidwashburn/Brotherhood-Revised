@@ -299,6 +299,47 @@ p {
     transition:all .1s ease-in-out;
 }
 
+/* TWITTER FEED */
+#jstwitter {
+    width: 300px;
+    font-size: 15px;
+    color: #333333;
+    margin: 0 auto;
+    text-align:center;
+}
+
+#jstwitter .tweet {
+    margin: 0 auto 15px auto;
+    padding: 15px;
+    border-radius:3px;
+    background:#ffffff;
+    text-align:left;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.1);
+}
+
+#jstwitter .tweet a {
+    text-decoration: none;
+    color: #13c9d0;
+}
+
+#jstwitter .tweet a:hover {
+    text-decoration: underline;
+}
+
+#jstwitter img {
+    display:block;
+    margin-bottom:5px;
+    max-width:100%;
+}
+
+#jstwitter .tweet .time {
+    font-size: 10px;
+    font-style: italic;
+    color: #666666;
+    display:block;
+    margin-top:3px;
+}
+
 /*------ Main Menu and Navigation ------*/
 
 /*-- Main menu slides in from left when opened. When "Settings" is clicked the main menu pushes up. --*/
