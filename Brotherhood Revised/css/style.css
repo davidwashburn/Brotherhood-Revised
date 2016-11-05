@@ -397,7 +397,8 @@ p {
         margin-top:0;
     }
     .whoSectionHero {
-        width:auto;
+        width: calc(50% - 22px);
+        max-height: calc(165px - 20px);
     }
     .aboutSectionHero {
         width: calc(100% - 20px);

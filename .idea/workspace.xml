@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="117">
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="265" column="22" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="22" />
+            <state relative-caret-position="523">
+              <caret line="400" column="39" selection-start-line="400" selection-start-column="39" selection-end-line="400" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -154,8 +154,8 @@
         <option value="$PROJECT_DIR$/Brotherhood Revised/GammaGallery/index.html" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/js/scripts.js" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/css/chocolat.css" />
-        <option value="$PROJECT_DIR$/Brotherhood Revised/css/style.css" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/index.html" />
+        <option value="$PROJECT_DIR$/Brotherhood Revised/css/style.css" />
       </list>
     </option>
   </component>
@@ -363,12 +363,12 @@
       <workItem from="1478014358399" duration="7653000" />
       <workItem from="1478104839558" duration="9869000" />
       <workItem from="1478302749477" duration="11571000" />
-      <workItem from="1478353933807" duration="3869000" />
+      <workItem from="1478353933807" duration="4469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52046000" />
+    <option name="totallyTimeSpent" value="52646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -661,14 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="265" column="22" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -677,6 +669,14 @@
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="400" column="39" selection-start-line="400" selection-start-column="39" selection-end-line="400" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
