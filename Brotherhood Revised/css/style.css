@@ -214,7 +214,7 @@ p {
 /*------ Section and HTML Structure ------*/
 .section {
     width: calc(75% - 40px);
-    background-color: rgba(59,66,65,.5);
+    background-color: rgba(59,66,65,.75);
     cursor:default;
     padding: 20px;
     margin: 0 auto;
@@ -231,10 +231,10 @@ p {
 }
 .aboutText {
     width: calc(100% - 500px);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     letter-spacing: 1px;
-    line-height: 40px;
+    line-height: 35px;
     color: #d2d2d2;
     margin: 0 10px;
 }
@@ -382,6 +382,15 @@ p {
 
 
 /* Mobile Responsive Media Queries */
+
+@media (max-width: 1400px) {
+    .aboutSectionHero {
+        width:calc(100% - 60px);
+    }
+    .aboutText {
+        width: calc(100% - 20px);
+    }
+}
 @media (max-width: 769px) {
     .main {
         padding:0;
@@ -405,10 +414,12 @@ p {
         margin: 0 0 20px 0;
     }
     .aboutText {
-        width:auto;
+        width: auto;
+        line-height: 30px;
+        text-align: left;
     }
     #aboutPara1 {
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     }
     #aboutPara2 {
         display:none;
