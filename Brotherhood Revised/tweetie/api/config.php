@@ -8,7 +8,7 @@
     define('CONSUMER_SECRET', 'A6teF5xrKttHQ08BGgqpuLswKebYgCHhKJ0wjz5hNYD5HdJf3k');
 
     // User Access Token
-    define('ACCESS_TOKEN', '	788766800204869633-04ZQOnT925gwj6xrx4BtwCZSuDiRPxn');
+    define('ACCESS_TOKEN', '788766800204869633-04ZQOnT925gwj6xrx4BtwCZSuDiRPxn');
     define('ACCESS_SECRET', 'wyovCAdZCcpr4IXSet9PcpjfQA4grQJKR9SODlxtmm7za');
 	
 	// Cache Settings

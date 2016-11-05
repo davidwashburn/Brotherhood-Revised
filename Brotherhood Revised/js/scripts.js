@@ -33,13 +33,8 @@ $( document ).ready(function() {
     });
 
     // Show/Hide Sections using slideToggle
-    $('#showHideBattle').click('click', function (){
-        $('#battle').slideToggle("fast");
+    $('#navSearch').click('click', function (){
+        $('#navHeaderMenu').slideToggle("fast");
     });
-
-    // Poptrox media gallery call on the Index page
-    var foo = $('#gallery');
-    foo.poptrox();
-
 });
 

@@ -11,13 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/ycp.css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.poptrox.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/twitter.js"></script>
 </head>
 
     <body id="body">
@@ -28,8 +27,20 @@
                 <i class="navIcon material-icons floatLeft" id="navMenu">menu</i>
                 <h1 class="navTitle">Brotherhood</h1>
                 <i class="navIcon material-icons floatRight" id="navSearch">keyboard_arrow_down</i>
+            <!-- Submenu Navigation -->
+                <div class="navHeaderMenu clearFix" id="navHeaderMenu" style="display:none;">
+                    <p class="navHeaderOptions">
+                        <a href="#indexAbout">About</a>
+                    </p>
+                    <p class="navHeaderOptions">
+                        <a href="#indexStory">Story</a>
+                    </p>
+                    <p class="navHeaderOptions">
+                        <a href="#indexRoster">Roster</a>
+                    </p>
+                </div>
+            <!-- End Submenu Navigation -->
             </div>
-
             <!-- Content -->
             <div class="container">
                 <div class="main clearFix">
@@ -38,7 +49,7 @@
 
                     <div id="aboutSection">
                         <div class="section clearFix">
-                            <p class="sectionTitle white" style="padding: 10px 0 0 0;">About Us</p>
+                            <p class="sectionTitle white" id="indexAbout" style="padding: 10px 0 0 0;">About Us</p>
                         </div>
                         <div class="section clearFix">
                             <div class="aboutSectionHero floatLeft"></div>
@@ -49,9 +60,20 @@
                             </p>
                         </div>
                     </div>
+
+                    <div id="mediaSection">
+                        <div class="section clearFix">
+                            <p class="sectionTitle white" id="indexStory">Our Story</p>
+                        </div>
+                        <!-- Selector by Playlist -->
+                        <div class="demo" data-ycp="PLyv8P_FoP2Gwi7LhfFtBRBIAFggJ6kgHr"></div>
+                        <!-- Selector by UserName -->
+                        <div class="demo hide" data-ycp="davidwashburn"></div>
+                    </div>
+
                     <div id="whoSection">
                         <div class="section clearFix">
-                            <p class="sectionTitle white">Who We Are</p>
+                            <p class="sectionTitle white" id="indexRoster">Who We Are</p>
                         </div>
                         <div class="section clearFix">
                             <div class="whoSectionHero">
@@ -82,27 +104,6 @@
                             </div>
                         </div>
                     </div>
-                    <div id="mediaSection">
-                        <div class="section clearFix">
-                            <p class="sectionTitle white">Our Records</p>
-                        </div>
-                        <div class="section clearFix">
-                            <div id="gallery" class="clearFix">
-                                <a href="https://www.youtube.com/embed/l2G8GvYber4?list=PLyv8P_FoP2Gwi7LhfFtBRBIAFggJ6kgHr&amp;showinfo=0 data-poptrox="youtube,800x400">
-                                    <img class="mediaGallery" src="./css/images/assets/dug.png" />
-                                </a>
-                                <a href="https://www.youtube.com/embed/l2G8GvYber4?list=PLyv8P_FoP2Gwi7LhfFtBRBIAFggJ6kgHr&amp;showinfo=0">
-                                    <img class="mediaGallery" src="./css/images/assets/dug.png" />
-                                </a>
-                                <a href="https://www.youtube.com/embed/l2G8GvYber4?list=PLyv8P_FoP2Gwi7LhfFtBRBIAFggJ6kgHr&amp;showinfo=0">
-                                    <img class="mediaGallery" src="./css/images/assets/dug.png" />
-                                </a>
-                                <a href="http://youtu.be/loGm3vT8EAQ" data-poptrox="youtube,800x480">
-                                    <img class="mediaGallery" src="./css/images/assets/dug.png" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -115,14 +116,14 @@
                     Menu
                     <i id="menuCloseButton" type="button" class="material-icons optbtn floatRight">clear</i>
                 </h3>
-                <a href="index.html">
-                    <div id="aboutMenuButton" class="splitMenuButton">
-                        <p>Home</p>
+                <a href="login.html">
+                    <div id="loginMenuButton" class="mainMenuButton">
+                        <p>Log In</p>
                     </div>
                 </a>
-                <a href="login.html">
-                    <div id="loginMenuButton" class="splitMenuButton">
-                        <p>Log In</p>
+                <a href="index.html">
+                    <div id="aboutMenuButton" class="mainMenuButton">
+                        <p>Home</p>
                     </div>
                 </a>
                 <a href="reddit.html">
@@ -160,5 +161,29 @@
             </div>
             <!-- End Settings Menu -->
         </div>
+
+        <!-- jQuery -->
+        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/ycp.js"></script>
+        <script>
+            $(function() {
+
+                $("#unix").ycp(
+                        playlist = 10, // number of videos playlist count
+                        autoplay = false, // true or false
+                        related = true, // true or false
+                        apikey = 'AIzaSyBPVL22uCCZq1RIkZwVVdGUZx2H-9JydJw' // your google api key
+                );
+
+                $(".demo").ycp(
+                        playlist = 10, // number of videos playlist count
+                        autoplay = false, // true or false
+                        related = false, // true or false
+                        apikey = 'AIzaSyBPVL22uCCZq1RIkZwVVdGUZx2H-9JydJw' // your google api key
+                );
+
+            });
+        </script>
+
     </body>
 </html>

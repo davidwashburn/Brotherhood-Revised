@@ -29,6 +29,19 @@
                 <i class="navIcon material-icons floatLeft" id="navMenu">menu</i>
                 <h1 class="navTitle">Brotherhood</h1>
                 <i class="navIcon material-icons floatRight" id="navSearch">keyboard_arrow_down</i>
+                <!-- Submenu Navigation -->
+                <div class="navHeaderMenu clearFix" id="navHeaderMenu" style="display:none;">
+                    <p class="navHeaderOptions">
+                        <a href="index.html#indexAbout">About</a>
+                    </p>
+                    <p class="navHeaderOptions">
+                        <a href="index.html#indexStory">Story</a>
+                    </p>
+                    <p class="navHeaderOptions">
+                        <a href="index.html#indexRoster">Roster</a>
+                    </p>
+                </div>
+                <!-- End Submenu Navigation -->
             </div>
 
             <!-- Content -->
@@ -93,16 +106,16 @@
                     Menu
                     <i id="menuCloseButton" type="button" class="material-icons optbtn floatRight">clear</i>
                 </h3>
-                <div id="aboutMenuButton" class="splitMenuButton">
+                <a href="login.html">
+                    <div id="loginMenuButton" class="mainMenuButton">
+                        <p>Log In</p>
+                    </div>
+                </a>
+                <div id="aboutMenuButton" class="mainMenuButton">
                     <a href="index.html">
                         <p>Home</p>
                     </a>
                 </div>
-                <a href="login.html">
-                    <div id="loginMenuButton" class="splitMenuButton">
-                        <p>Log In</p>
-                    </div>
-                </a>
                 <div id="aboutMenuButton" class="mainMenuButton">
                     <p>
                         <a href="reddit.html">

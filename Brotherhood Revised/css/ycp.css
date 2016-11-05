@@ -1,0 +1,149 @@
+/******************************************************
+* #### jQuery-Youtube-Channels-Playlist v04 ####
+* Coded by Ican Bachors 2014.
+* http://ibacor.com/labs/jquery-youtube-channels-playlist/
+* Updates will be posted to this site.
+******************************************************/
+
+.ycp {
+	font-size: .9em;
+	color: #444;
+	background: rgba(59,66,65,.5);
+	width: 75%;
+	max-height: 500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.ycp span.tombol {
+	margin-right: 20px;
+}
+
+.ycp span.about {
+    float: right;
+    padding: 2px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.ycp a {
+	text-decoration: none;
+}
+
+.ycp a img {
+	border: 0;
+}
+
+.ycp .unit {
+	box-sizing: border-box;
+}
+
+.ycp .katuhu {
+	width: 35%;
+}
+
+.ycp .kenca {
+	width: 65%;
+}
+
+.ycp .thumb {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	height: 61px;
+	background: #4a4a4a;
+}
+
+.ycp .thumb span {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding: 2px;
+	background: #000;
+	color: #cacaca;
+	font-size: 0.8em;
+}
+
+.ycp .play {
+	margin: 0;
+	padding: 10px;
+	display: block;
+	overflow: hidden;
+	*overflow: visible;
+}
+
+.ycp .vid-top {
+	color: #fff;
+	padding: 20px;
+	display: block;
+	overflow: hidden;
+}
+
+.ycp .vid-bottom {
+	color: #d2d2d2;
+	display: block;
+	overflow-y: scroll;
+	height: 435px;
+}
+
+.ycp div.title {
+	overflow: hidden;
+    color:white;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.ycp span.mute, .ycp span.about a {
+	font-size: 0.8em;
+}
+
+.ycp .thumb img {
+	width: 80px;
+	height: 100%;
+}
+
+.ycp .play:hover {
+	background: rgba(0,0,0,0.25);
+}
+
+.ycp .vid-active {
+	background: rgba(0,0,0,0.25);
+}
+
+.ycp .vid-prev, .ycp .vid-next, .ycp .play {
+	cursor: pointer;
+}
+
+.ycp .vid-iframe {
+	width: 100%;
+	height: 500px;
+	border: 0;
+}
+
+@media screen and (max-width:769px) {
+
+    .ycp {
+        width:100%;
+        max-height:none;
+    }
+    .ycp .katuhu {
+		width: 100%;
+	}
+
+	.ycp .kenca {
+		width: 100%;
+	}
+
+	.ycp .vid-iframe {
+		height: 350px;
+	}
+
+	.ycp .vid-bottom {
+		height: 285px;
+	};
+}

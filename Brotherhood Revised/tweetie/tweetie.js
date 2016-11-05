@@ -7,14 +7,14 @@
 
         // Default settings
         var settings = $.extend({
-            'username': 'Rocket_Fiend',
+            'username': null,
             'list': null,
             'hashtag': null,
             'count': 10,
             'hideReplies': false,
             'dateFormat': '%b/%d/%Y',
             'template': '{{date}} - {{tweet}}',
-            'apiPath' : 'api/tweet.php',
+            'apiPath' : 'tweetie/api/tweet.php',
             'loadingText': 'Loading...'
         }, options);
 
