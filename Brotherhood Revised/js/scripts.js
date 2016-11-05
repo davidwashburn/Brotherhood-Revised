@@ -36,5 +36,6 @@ $( document ).ready(function() {
     $('#navSearch').click('click', function (){
         $('#navHeaderMenu').slideToggle("fast");
     });
+
 });
 

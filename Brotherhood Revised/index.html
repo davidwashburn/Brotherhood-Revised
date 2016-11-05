@@ -12,11 +12,14 @@
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/ycp.css" media="all">
+    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/ycp.js"></script>
+    <script src="js/jquery.chocolat.js"></script>
 </head>
 
     <body id="body">
@@ -71,39 +74,49 @@
                         <div class="demo hide" data-ycp="davidwashburn"></div>
                     </div>
 
+                    <!-- Who Section -->
                     <div id="whoSection">
                         <div class="section clearFix">
                             <p class="sectionTitle white" id="indexRoster">Who We Are</p>
                         </div>
+
+                        <!-- Lightbox Gallery Inserted Here -->
                         <div class="section clearFix">
-                            <div class="whoSectionHero">
-                                <p class="whoSectionHero-Image-Text">
-                                    Goose
-                                </p>
-                                <img class="whoSectionHero-Image clearFix" src="./css/images/cards/GooseSmall.jpg">
-                            </div>
-                            <div class="whoSectionHero">
-                                <p class="whoSectionHero-Image-Text">
-                                    Greenie
-                                </p>
-                                <img class="whoSectionHero-Image clearFix" src="./css/images/cards/GreenieSmall.jpg">
-                            </div>
-                            <div class="whoSectionHero">
-                                <p class="whoSectionHero-Image-Text">
-                                    TexRockwolf
-                                </p>
-                                <img class="whoSectionHero-Image clearFix" src="./css/images/cards/TexFireSmall.jpg">
+                            <div id="test" class="chocolat-parent" data-chocolat-title="Roster">
+                                <a class="chocolat-image" href="./css/images/cards/GooseSmall.jpg" title="Goose">
+                                    <img class="whoSectionHero" src="./css/images/cards/GooseSmall.jpg" />
+                                </a>
+                                <a class="chocolat-image" href="./css/images/cards/TexSmall.jpg" title="Tex Rockwolf">
+                                    <img class="whoSectionHero" src="./css/images/cards/TexSmall.jpg" />
+                                </a>
+                                <a class="chocolat-image" href="./css/images/cards/GreenieSmall.jpg" title="Greenie">
+                                    <img class="whoSectionHero" src="./css/images/cards/GreenieSmall.jpg"/>
+                                </a>
+                                <a class="chocolat-image" href="./css/images/cards/KavemanSmall.jpg" title="Kaveman">
+                                    <img class="whoSectionHero" src="./css/images/cards/KavemanSmall.jpg" />
+                                </a>
+                                <a class="chocolat-image" href="./css/images/cards/RocketSmall.jpg" title="Rocket">
+                                    <img class="whoSectionHero" src="./css/images/cards/RocketSmall.jpg" />
+                                </a>
+                                <a class="chocolat-image" href="./css/images/cards/RavenSmall.jpg" title="Raven">
+                                    <img class="whoSectionHero" src="./css/images/cards/RavenSmall.jpg"/>
+                                </a>
+                                <a class="chocolat-image" href="./css/images/cards/LemonSmall.jpg" title="Lemon">
+                                    <img class="whoSectionHero" src="./css/images/cards/LemonSmall.jpg" />
+                                </a>
+                                <a class="chocolat-image" href="./css/images/cards/TouristSmall.jpg" title="Tourist">
+                                    <img class="whoSectionHero" src="./css/images/cards/TouristSmall.jpg" />
+                                </a>
+                                <a class="chocolat-image" href="./css/images/cards/Tango.png" title="Tango">
+                                    <img class="whoSectionHero"src="./css/images/cards/Tango.png"/>
+                                </a>
                             </div>
                         </div>
-                        <div class="section clearFix">
-                            <div id="whoSection-More">
-                                <i id="whoSection-Expand-Button" class="material-icons">expand_more</i>
-                                <p class="whoSection-More-Button">
-                                    See More
-                                </p>
-                            </div>
-                        </div>
+                        <!-- Lightbox Gallery Ends Here -->
+
                     </div>
+                    <!-- End Who Section -->
+
                 </div>
             </div>
 
@@ -163,8 +176,6 @@
         </div>
 
         <!-- jQuery -->
-        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/ycp.js"></script>
         <script>
             $(function() {
 
@@ -184,6 +195,11 @@
 
             });
         </script>
+    <script>
+        $(document).ready(function(){
+            $('#test').Chocolat();
+        });
+    </script>
 
     </body>
 </html>
