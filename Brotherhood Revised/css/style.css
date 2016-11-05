@@ -157,6 +157,7 @@ p {
     border: 0;
     color: #fff;
     min-width: 320px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     right: 0;
     top: 0;
     width: 100%;
@@ -167,13 +168,10 @@ p {
     width: 100%;
     height: 60px;
     margin-top: 60px;
-    border-bottom: 1px solid #656565;
 }
 .navHeaderOptions {
     padding: 0 20px;
     width: calc(33.33% - 40px);
-    color: #d2d2d2;
-    font-weight: 300;
     float: left;
     line-height: 60px;
     text-align: center;
@@ -227,7 +225,13 @@ p {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
-    text-align:center;
+    text-align:left;
+}
+.sectionSubTitle {
+    color: #d1d1d1;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-align:left;
 }
 .aboutText {
     width: calc(100% - 500px);
@@ -238,9 +242,6 @@ p {
     color: #d2d2d2;
     margin: 0 10px;
 }
-#aboutSection {
-    margin-top:60px;
-}
 .aboutSectionHero {
     height: 215px;
     width: 400px;
@@ -249,6 +250,25 @@ p {
     background-image: url(https://pbs.twimg.com/media/COd0JPhWsAUH3px.jpg);
     background-size: cover;
 }
+.indexSectionHero {
+    height:0px;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    background-size: cover;
+    visibility:hidden;
+}
+#indexAboutHero {
+    background-image: url(images/bg1.jpg);
+    background-position-y: -4em;
+}
+#indexStoryHero {
+    background-image: url(images/bg2.jpg);
+    background-position-y: -4em;
+}
+#indexRosterHero {
+    background-image: url(images/bg3.jpg);
+    background-position-y: -4em;
+}
 .mediaGallery {
     width: calc(25% - 20px);
     min-width: 200px;
@@ -256,17 +276,17 @@ p {
     float: left;
     padding: 0 10px 20px 10px;
 }
-#whoSection {
-    margin-top:100px;
+#rosterSection {
+    margin-top:20px;
 }
-.whoSectionHero {
+.rosterSectionHero {
     width: calc(25% - 23px);
     padding: 10px;
     height: auto;
     max-height: 300px;
 }
-#mediaSection {
-    margin-top:100px;
+#storySection {
+    margin-top:20px;
 }
 .results {
     padding: 0 20px 20px 20px;
@@ -366,12 +386,6 @@ p {
     padding-left:25px;
     color: white;
 }
-#aboutMenuButton {
-    margin:.75em 5px .75em 0;
-}
-#loginMenuButton {
-    margin:.75em 0 .75em 5px;
-}
 .menuFooter {
     margin: 0;
     padding: 25px 10px;
@@ -390,6 +404,24 @@ p {
     .aboutText {
         width: calc(100% - 20px);
     }
+    .indexSectionHero {
+        width:calc(100% - 60px);
+        height:75px;
+        display:block;
+        visibility:visible;
+    }
+    #indexAboutContent {
+        display:none;
+    }
+    #indexStoryContent {
+        display:none;
+    }
+    #indexRosterContent {
+        display:none;
+    }
+    .sectionTitle {
+        font-size: 18px;
+    }
 }
 @media (max-width: 769px) {
     .main {
@@ -402,10 +434,7 @@ p {
         width: auto;
         padding:10px 20px;
     }
-    #aboutSection {
-        margin-top:0;
-    }
-    .whoSectionHero {
+    .rosterSectionHero {
         width: calc(50% - 22px);
         max-height: calc(165px - 20px);
     }
@@ -413,10 +442,15 @@ p {
         width: calc(100% - 20px);
         margin: 0 0 20px 0;
     }
+    .indexSectionHero {
+        width: calc(100% - 20px);
+        height:75px;
+        margin: 0 0 20px 0;
+    }
     .aboutText {
         width: auto;
         line-height: 30px;
-        text-align: left;
+        text-align: center;
     }
     #aboutPara1 {
         padding-bottom: 10px;

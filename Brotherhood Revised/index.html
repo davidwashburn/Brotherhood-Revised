@@ -32,13 +32,13 @@
                 <i class="navIcon material-icons floatRight" id="navSearch">keyboard_arrow_down</i>
             <!-- Submenu Navigation -->
                 <div class="navHeaderMenu clearFix" id="navHeaderMenu" style="display:none;">
-                    <p class="navHeaderOptions">
+                    <p class="navHeaderOptions" id="menuAnchorAbout">
                         <a href="#indexAbout">About</a>
                     </p>
-                    <p class="navHeaderOptions">
+                    <p class="navHeaderOptions" id="menuAnchorStory">
                         <a href="#indexStory">Story</a>
                     </p>
-                    <p class="navHeaderOptions">
+                    <p class="navHeaderOptions" id="menuAnchorRoster">
                         <a href="#indexRoster">Roster</a>
                     </p>
                 </div>
@@ -47,14 +47,19 @@
             <!-- Content -->
             <div class="container">
                 <div class="main clearFix">
-                    <!-- Primary Content -->
+
+                    <!-- Twitter Implementation -->
                     <div id="jstwitter"></div>
 
+                    <!-- Primary Content -->
                     <div id="aboutSection">
-                        <div class="section clearFix">
-                            <p class="sectionTitle white" id="indexAbout" style="padding: 10px 0 0 0;">About Us</p>
+                        <!-- Index Section Hero Image - not on Desktop -->
+                        <div id="indexAboutHero" class="indexSectionHero floatLeft"></div>
+                        <div class="section clearFix" id="indexAbout">
+                            <p class="sectionTitle white">About Us</p>
+                            <p class="sectionSubTitle">An overview of the Brotherhood</p>
                         </div>
-                        <div class="section clearFix">
+                        <div class="section clearFix" id="indexAboutContent">
                             <div class="aboutSectionHero floatLeft"></div>
                             <p class="aboutText floatLeft" id="aboutPara1">
                                 The Brotherhood are a collection of survivors united against cannibals and those that would aid them.
@@ -69,51 +74,56 @@
                         </div>
                     </div>
 
-                    <div id="mediaSection">
-                        <div class="section clearFix">
-                            <p class="sectionTitle white" id="indexStory">Our Story</p>
+                    <div id="storySection">
+                        <!-- Index Section Hero Image - not on Desktop -->
+                        <div id="indexStoryHero" class="indexSectionHero floatLeft"></div>
+                        <div class="section clearFix" id="indexStory">
+                            <p class="sectionTitle white">Our Story</p>
+                            <p class="sectionSubTitle">Footage of key Brotherhood events</p>
                         </div>
                         <!-- Selector by Playlist -->
-                        <div class="demo" data-ycp="PLyv8P_FoP2Gwi7LhfFtBRBIAFggJ6kgHr"></div>
+                        <div  id="indexStoryContent" class="demo" data-ycp="PLyv8P_FoP2Gwi7LhfFtBRBIAFggJ6kgHr"></div>
                         <!-- Selector by UserName -->
                         <div class="demo hide" data-ycp="davidwashburn"></div>
                     </div>
 
                     <!-- Who Section -->
-                    <div id="whoSection">
-                        <div class="section clearFix">
-                            <p class="sectionTitle white" id="indexRoster">Who We Are</p>
+                    <div id="rosterSection"><!-- Index Section Hero Image - not on Desktop -->
+                        <div id="indexRosterHero" class="indexSectionHero floatLeft"></div>
+                        <div class="section clearFix" id="indexRoster">
+                            <p class="sectionTitle white">Who We Are</p>
+                            <p class="sectionSubTitle">An active roster of our members</p>
                         </div>
 
                         <!-- Lightbox Gallery Inserted Here -->
-                        <div class="section clearFix">
+                        <div class="section clearFix" id="indexRosterContent">
                             <div id="test" class="chocolat-parent" data-chocolat-title="Roster">
                                 <a class="chocolat-image" href="./css/images/cards/GooseSmall.jpg" title="Goose">
-                                    <img class="whoSectionHero" src="./css/images/cards/GooseSmall.jpg" />
+                                    <img class="rosterSectionHero" src="./css/images/cards/GooseSmall.jpg" />
                                 </a>
                                 <a class="chocolat-image" href="./css/images/cards/TexSmall.jpg" title="Tex Rockwolf">
-                                    <img class="whoSectionHero" src="./css/images/cards/TexSmall.jpg" />
+                                    <img class="rosterSectionHero" src="./css/images/cards/TexSmall.jpg" />
                                 </a>
                                 <a class="chocolat-image" href="./css/images/cards/GreenieSmall.jpg" title="Greenie">
-                                    <img class="whoSectionHero" src="./css/images/cards/GreenieSmall.jpg"/>
+                                    <img class="rosterSectionHero" src="./css/images/cards/GreenieSmall.jpg"/>
                                 </a>
                                 <a class="chocolat-image" href="./css/images/cards/KavemanSmall.jpg" title="Kaveman">
-                                    <img class="whoSectionHero" src="./css/images/cards/KavemanSmall.jpg" />
+                                    <img class="rosterSectionHero" src="./css/images/cards/KavemanSmall.jpg" />
                                 </a>
                                 <a class="chocolat-image" href="./css/images/cards/RocketSmall.jpg" title="Rocket">
-                                    <img class="whoSectionHero" src="./css/images/cards/RocketSmall.jpg" />
+                                    <img class="rosterSectionHero" src="./css/images/cards/RocketSmall.jpg" />
                                 </a>
                                 <a class="chocolat-image" href="./css/images/cards/RavenSmall.jpg" title="Raven">
-                                    <img class="whoSectionHero" src="./css/images/cards/RavenSmall.jpg"/>
+                                    <img class="rosterSectionHero" src="./css/images/cards/RavenSmall.jpg"/>
                                 </a>
                                 <a class="chocolat-image" href="./css/images/cards/LemonSmall.jpg" title="Lemon">
-                                    <img class="whoSectionHero" src="./css/images/cards/LemonSmall.jpg" />
+                                    <img class="rosterSectionHero" src="./css/images/cards/LemonSmall.jpg" />
                                 </a>
                                 <a class="chocolat-image" href="./css/images/cards/TouristSmall.jpg" title="Tourist">
-                                    <img class="whoSectionHero" src="./css/images/cards/TouristSmall.jpg" />
+                                    <img class="rosterSectionHero" src="./css/images/cards/TouristSmall.jpg" />
                                 </a>
                                 <a class="chocolat-image" href="./css/images/cards/Tango.png" title="Tango">
-                                    <img class="whoSectionHero"src="./css/images/cards/Tango.png"/>
+                                    <img class="rosterSectionHero" src="./css/images/cards/Tango.png"/>
                                 </a>
                             </div>
                         </div>

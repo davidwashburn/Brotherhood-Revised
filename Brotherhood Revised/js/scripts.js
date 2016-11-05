@@ -13,7 +13,7 @@ $( document ).ready(function() {
     $('#menuCloseButton').click('click', function (){
         $('#mainMenu').toggleClass("active");
         $('#overlay').toggleClass("active");
-        $('#body').toggleClass("hideOverFlow")
+        $('#body').toggleClass("hideOverFlow");
     });
     //Click off Menu to close
     $('#overlay').click('click', function (){
@@ -35,6 +35,18 @@ $( document ).ready(function() {
     // Show/Hide Sections using slideToggle
     $('#navSearch').click('click', function (){
         $('#navHeaderMenu').slideToggle("fast");
+    });
+    $('#indexStory').click('click', function (){
+        $('#indexStoryContent').slideToggle("fast");
+        $('#indexStoryHero').slideToggle("fast");
+    });
+    $('#indexRoster').click('click', function (){
+        $('#indexRosterContent').slideToggle("fast");
+        $('#indexRosterHero').slideToggle("fast");
+    });
+    $('#indexAbout').click('click', function (){
+        $('#indexAboutContent').slideToggle("fast");
+        $('#indexAboutHero').slideToggle("fast");
     });
 
 });
