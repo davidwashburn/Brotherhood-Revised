@@ -277,7 +277,7 @@ p {
     padding: 0 10px 20px 10px;
 }
 #rosterSection {
-    margin-top:20px;
+    padding: 20px 0 40px 0;
 }
 .rosterSectionHero {
     width: calc(25% - 23px);
@@ -410,7 +410,7 @@ p {
         display:block;
         visibility:visible;
     }
-    #indexAboutContent {
+    #indexAboutHero {
         display:none;
     }
     #indexStoryContent {
