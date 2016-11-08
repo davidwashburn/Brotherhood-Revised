@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stats.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stats.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/stats.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+            <state relative-caret-position="310">
+              <caret line="67" column="26" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -61,11 +61,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reddit.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reddit.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/reddit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
+            <state relative-caret-position="17">
               <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reddit.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/reddit.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="152" column="19" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -107,7 +117,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Brotherhood Revised/php/badmin.php" />
-        <option value="$PROJECT_DIR$/Brotherhood Revised/css/reddit.css" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/css/login.css" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/php/twitter.php" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/php/twitter2.php" />
@@ -141,6 +150,7 @@
         <option value="$PROJECT_DIR$/Brotherhood Revised/index.html" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/css/style.css" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/css/stats.css" />
+        <option value="$PROJECT_DIR$/Brotherhood Revised/css/reddit.css" />
       </list>
     </option>
   </component>
@@ -352,12 +362,12 @@
       <workItem from="1478492492243" duration="8450000" />
       <workItem from="1478524219900" duration="108000" />
       <workItem from="1478613358910" duration="626000" />
-      <workItem from="1478641448437" duration="276000" />
+      <workItem from="1478641448437" duration="718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76727000" />
+    <option name="totallyTimeSpent" value="77169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1294" height="1047" extended-state="0" />
@@ -434,7 +444,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/js/test.js" />
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/test.html" />
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/php/oauth.php" />
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/js/twitter.js" />
@@ -504,14 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/reddit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,8 +596,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/stats.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        <state relative-caret-position="310">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/reddit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="152" column="19" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/reddit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
           <folding />
         </state>
       </provider>

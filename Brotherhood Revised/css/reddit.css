@@ -149,7 +149,8 @@
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    line-height: 1.25;
+    line-height: 18px;
+    font-size:14px;
 }
 .redditPost {
     width:95%;
