@@ -46,7 +46,7 @@
 }
 .statsCell {
     width: 100%;
-    line-height: 40px;
+    line-height: 30px;
 }
 .stats {
     width: 50%;
@@ -76,8 +76,9 @@
 
     .statsSection {
         margin: 0 auto;
-        padding: 0em 1em 0em 1em;
-        box-shadow:none;
+        padding: 0 10px;
+        box-shadow: none;
+        font-size: small;
     }
 
     .statCenter {

@@ -106,11 +106,6 @@
                     Menu
                     <i id="menuCloseButton" type="button" class="material-icons optbtn floatRight">clear</i>
                 </h3>
-                <a href="login.html">
-                    <div id="loginMenuButton" class="mainMenuButton">
-                        <p>Log In</p>
-                    </div>
-                </a>
                 <div id="aboutMenuButton" class="mainMenuButton">
                     <a href="index.html">
                         <p>Home</p>
@@ -147,6 +142,11 @@
                     Settings
                     <i id="settingsCloseButton" type="button" class="material-icons optbtn floatRight">keyboard_arrow_up</i>
                 </h3>
+                <a href="login.html">
+                    <div id="loginMenuButton" class="mainMenuButton">
+                        <p>Log In</p>
+                    </div>
+                </a>
                 <div class="mainMenuButton">
                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                         <p>Coming Soon!</p>

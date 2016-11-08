@@ -166,14 +166,15 @@ p {
 }
 .navHeaderMenu {
     width: 100%;
-    height: 60px;
+    height: 50px;
     margin-top: 60px;
+    background-color: #3b4241;
 }
 .navHeaderOptions {
     padding: 0 20px;
     width: calc(33.33% - 40px);
     float: left;
-    line-height: 60px;
+    line-height: 50px;
     text-align: center;
 }
 .navTitle {
@@ -211,7 +212,7 @@ p {
 
 /*------ Section and HTML Structure ------*/
 .section {
-    width: calc(75% - 40px);
+    width: calc(70% - 40px);
     background-color: rgba(59,66,65,.75);
     cursor:default;
     padding: 20px;
@@ -219,7 +220,7 @@ p {
 }
 .sectionTitle {
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 10px 0 0;;
     font-size: 20px;
     line-height: calc(50px - 30px);
     text-transform: uppercase;
@@ -232,15 +233,15 @@ p {
     font-size: 14px;
     letter-spacing: .5px;
     text-align:left;
+    font-weight:300;
 }
 .aboutText {
     width: calc(100% - 500px);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 35px;
     color: #d2d2d2;
-    margin: 0 10px;
 }
 .aboutSectionHero {
     height: 215px;
@@ -352,7 +353,6 @@ p {
 
 .mainMenuButton {
     padding: 15px 10px;
-    margin: .75em 0;
     background-color:#fbfbfb;
     font-size: 18px;
     text-align:center;
@@ -449,8 +449,7 @@ p {
     }
     .aboutText {
         width: auto;
-        line-height: 30px;
-        text-align: center;
+        line-height: 22px;
     }
     #aboutPara1 {
         padding-bottom: 10px;
