@@ -262,11 +262,15 @@ p {
     background-image: url(images/bg1.jpg);
     background-position-y: -4em;
 }
-#indexStoryHero {
+#indexMediaHero {
     background-image: url(images/bg2.jpg);
     background-position-y: -4em;
 }
 #indexRosterHero {
+    background-image: url(images/bg3.jpg);
+    background-position-y: -4em;
+}
+#indexGamesHero {
     background-image: url(images/bg3.jpg);
     background-position-y: -4em;
 }
@@ -277,17 +281,20 @@ p {
     float: left;
     padding: 0 10px 20px 10px;
 }
-#rosterSection {
-    padding: 20px 0 40px 0;
-}
 .rosterSectionHero {
     width: calc(25% - 23px);
     padding: 10px;
     height: auto;
     max-height: 300px;
 }
-#storySection {
+#gamesSection {
     margin-top:20px;
+}
+#mediaSection {
+    margin-top:20px;
+}
+#rosterSection {
+    margin-top: 20px;
 }
 .results {
     padding: 0 20px 20px 20px;
@@ -394,6 +401,22 @@ p {
     font-size:13px;
 }
 
+/* Login footer stole and used on index as well */
+.loginFooter {
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 0;
+    height: 40px;
+    line-height: 40px;
+    color: #b7b7b7;
+    background-color: #404847;
+}
+.footerLink {
+    width:20%;
+    float:left;
+}
+
 
 /* Mobile Responsive Media Queries */
 
@@ -413,15 +436,23 @@ p {
     #indexAboutHero {
         display:none;
     }
-    #indexStoryContent {
+    #indexMediaContent {
         display:none;
     }
     #indexRosterContent {
         display:none;
     }
+    #indexGamesContent {
+        display:none;
+    }
     .sectionTitle {
         font-size: 18px;
     }
+    .indexSection.card {
+        margin:20px 15px 20px 15px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
 }
 @media (max-width: 769px) {
     .main {
@@ -452,9 +483,13 @@ p {
         line-height: 22px;
     }
     #aboutPara1 {
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
     #aboutPara2 {
         display:none;
+    }
+    .loginFooter {
+        margin: 2em 1em 0 1em;
+        background-color:transparent;
     }
 }

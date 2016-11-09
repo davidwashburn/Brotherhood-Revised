@@ -21,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="167" column="34" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
+            <state relative-caret-position="404">
+              <caret line="85" column="137" selection-start-line="85" selection-start-column="137" selection-end-line="85" selection-end-column="137" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -34,8 +44,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="264" column="8" selection-start-line="264" selection-start-column="6" selection-end-line="264" selection-end-column="8" />
+            <state relative-caret-position="795">
+              <caret line="493" column="5" selection-start-line="493" selection-start-column="5" selection-end-line="493" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -44,8 +54,8 @@
       <file leaf-file-name="stats.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/stats.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="67" column="26" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="26" />
+            <state relative-caret-position="365">
+              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -54,18 +64,28 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+            <state relative-caret-position="668">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reddit.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Cardio/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="60" column="109" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reddit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/reddit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -74,9 +94,11 @@
       <file leaf-file-name="reddit.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/reddit.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="152" column="19" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="2584">
+              <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+              <folding>
+                <marker date="1478670583927" expanded="true" signature="2851:2854" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +106,7 @@
       <file leaf-file-name="stats.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Brotherhood Revised/stats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="1122">
               <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding />
             </state>
@@ -140,17 +162,18 @@
         <option value="$PROJECT_DIR$/Brotherhood Revised/tweetie/tweetie.js" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/tweetie/index.html" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/login.html" />
-        <option value="$PROJECT_DIR$/Brotherhood Revised/reddit.html" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/stats.php" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/GammaGallery/index.html" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/css/chocolat.css" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/js/ycp.js" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/css/ycp.css" />
-        <option value="$PROJECT_DIR$/Brotherhood Revised/js/scripts.js" />
-        <option value="$PROJECT_DIR$/Brotherhood Revised/index.html" />
-        <option value="$PROJECT_DIR$/Brotherhood Revised/css/style.css" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/css/stats.css" />
         <option value="$PROJECT_DIR$/Brotherhood Revised/css/reddit.css" />
+        <option value="$PROJECT_DIR$/Brotherhood Revised/reddit.html" />
+        <option value="$USER_HOME$/Desktop/Cardio/index.html" />
+        <option value="$PROJECT_DIR$/Brotherhood Revised/js/scripts.js" />
+        <option value="$PROJECT_DIR$/Brotherhood Revised/css/style.css" />
+        <option value="$PROJECT_DIR$/Brotherhood Revised/index.html" />
       </list>
     </option>
   </component>
@@ -165,9 +188,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1913" />
-    <option name="width" value="1294" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -271,7 +295,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Tweetie-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Cardio/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -363,19 +387,19 @@
       <workItem from="1478524219900" duration="108000" />
       <workItem from="1478613358910" duration="626000" />
       <workItem from="1478641448437" duration="718000" />
+      <workItem from="1478670616216" duration="4451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77169000" />
+    <option name="totallyTimeSpent" value="81620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2316119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -393,6 +417,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -444,8 +469,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/test.html" />
-    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/php/oauth.php" />
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/js/twitter.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_jstwitter.zip/jstwitter_latest/twitter.js" />
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/jstwitter_latest/twitter-php/twitter.class.php" />
@@ -562,58 +585,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="167" column="34" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/stats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="1122">
           <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="264" column="8" selection-start-line="264" selection-start-column="6" selection-end-line="264" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/stats.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="67" column="26" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/reddit.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="152" column="19" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="2584">
+          <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+          <folding>
+            <marker date="1478670583927" expanded="true" signature="2851:2854" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Brotherhood Revised/reddit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Cardio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="60" column="109" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/stats.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="493" column="5" selection-start-line="493" selection-start-column="5" selection-end-line="493" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brotherhood Revised/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="85" column="137" selection-start-line="85" selection-start-column="137" selection-end-line="85" selection-end-column="137" />
           <folding />
         </state>
       </provider>

@@ -36,17 +36,24 @@ $( document ).ready(function() {
     $('#navSearch').click('click', function (){
         $('#navHeaderMenu').slideToggle("fast");
     });
-    $('#indexStory').click('click', function (){
-        $('#indexStoryContent').slideToggle("fast");
-        $('#indexStoryHero').slideToggle("fast");
+    $('#indexMedia').click('click', function (){
+        $('#indexMediaContent').slideToggle("fast");
+        $('#indexMediaHero').slideToggle("fast");
+        $('#mediaSection').toggleClass("card");
     });
     $('#indexRoster').click('click', function (){
         $('#indexRosterContent').slideToggle("fast");
         $('#indexRosterHero').slideToggle("fast");
+        $('#rosterSection').toggleClass("card");
     });
     $('#indexAbout').click('click', function (){
         $('#indexAboutContent').slideToggle("fast");
         $('#indexAboutHero').slideToggle("fast");
+        $('#aboutSection').toggleClass("card");
+    });
+    $('#indexGames').click('click', function (){
+        $('#indexGamesContent').slideToggle("fast");
+        $('#gamesSection').toggleClass("card");
     });
 
 });
